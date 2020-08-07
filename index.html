@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='style.css'>
 </head>
 <body>
     <h1>HAHA1</h1>
+
+
+    <script>
+
+
+            var array = document.querySelectorAll("link,script"); 
+ 
+ // 设置第一个 <p> 元素的背景颜色
+            for (var index = 0; index < array.length; index++) {
+                const element = array[index];
+                 var t=Math.random().toFixed(4);
+
+                console.log(element)
+
+                if(element.getAttribute("src")){
+                     alert()
+                    }else if(element.getAttribute("href")){
+                        var $href=element.getAttribute("href");
+                        element.setAttribute("href",$href+"?v="+t)
+                    }
+                
+            }
+        // console.log(a)
+
+
+
+
+
+    
+
+    </script>
 </body>
 </html>
