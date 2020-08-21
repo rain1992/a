@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+https://rain1992.github.io/blog/
 
 You can use the [editor on GitHub](https://github.com/rain1992/rain.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
